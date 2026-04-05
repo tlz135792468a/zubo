@@ -477,7 +477,7 @@ def push_all_files():
     os.system("git add 计数.txt || true")
     os.system("git add ip/*.txt || true")
     os.system("git add IPTV.txt || true")
-    os.system('git commit -m "自动更新：计数、IP文件、IPT.txt" || echo "⚠️ 无需提交"')
+    os.system('git commit -m "自动更新：计数、IP文件、IPV.txt" || echo "⚠️ 无需提交"')
     os.system("git push origin main || echo '⚠️ 推送失败'")
 
 # ===============================
